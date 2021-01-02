@@ -146,3 +146,46 @@ body{
     background:radial-gradient(#6366F1,#818CF8);
     
 }
+/* gradient button */
+.gradient-btn-1{
+    position: relative;
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    border: 10px solid transparent;
+    background-color: ;
+    border-image: linear-gradient(to top right,#312E81,#6366F1);
+    border-image-slice: 1;
+    color: #3730A3;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.gradient-btn-1:hover{
+    background-size: 100%;
+    background-image: linear-gradient(to top right,#312E81,#6366F1);
+    color: white;
+}
+.gradient-btn-2{
+    position: relative;
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: white;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right,#312E81,transparent);
+    border-image-slice: 1;
+    color: #3730A3;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.gradient-btn-2:hover{
+    background-size:100%;
+    background-image: linear-gradient(to right,#312E81,transparent);
+    border-right-style: none;
+    color: white;
+}
+.animated-btn-1{
+    
+}
